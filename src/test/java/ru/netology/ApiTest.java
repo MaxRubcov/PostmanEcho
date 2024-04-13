@@ -20,7 +20,7 @@ public class ApiTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", Matchers.equalTo("data"))
+                .body("data", Matchers.equalTo("some data"))
         ;
     }
 }
